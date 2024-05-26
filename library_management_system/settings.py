@@ -29,7 +29,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = ['https://library-management-system-1-qzf7.onrender.com']
 
 # Application definition
 
